@@ -7,45 +7,62 @@
     <title>Jorge Amorim</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f4f4f4;
             color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
         }
         header {
             background-color: #333;
             color: #fff;
-            padding: 20px 0;
-            width: 100%;
-            position: fixed;
-            top: 0;
+            padding: 20px;
+            text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 3rem;
         }
-        main {
-            margin-top: 100px;
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
         }
         h2 {
-            color: #555;
             font-size: 2rem;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         p {
             font-size: 1.2rem;
+            line-height: 1.6;
             margin-bottom: 20px;
         }
+        .icons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 2rem;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+        .icons a:hover {
+            color: #555;
+        }
         footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
             position: fixed;
-            bottom: 10px;
-            font-size: 0.9rem;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
@@ -53,12 +70,34 @@
 
 <header>
     <h1>Jorge Amorim</h1>
+    <p>Cognitive Scientist | AI Consultant | Educator</p>
 </header>
 
-<main>
-    <h2>Coming Soon</h2>
-    <p>Exciting things are on the way! Stay tuned for updates.</p>
-</main>
+<section>
+    <h2>About Me</h2>
+    <p>
+        I hold a PhD in Cognitive Science and an MBA, and my career is focused on the intersection of learning, cognitive processes, and AI. As an educator and consultant, I specialize in creating personalized learning solutions that are rooted in cognitive science and artificial intelligence. I am also the founder of Hikari, where we provide consulting and tutoring services for educational institutions and businesses.
+    </p>
+
+    <h2>Core Skills</h2>
+    <p>Cognitive Science (Focus on Executive Functions in Learning), Artificial Intelligence (AI in Education), Educational Consulting, Applied Neuroscience, Cognitive Training and Learning Strategies</p>
+
+    <h2>Projects</h2>
+    <p><strong>Hikari Consulting:</strong> Hikari is my educational consultancy where we design evidence-based learning programs grounded in cognitive science and AI.</p>
+    <p><strong>Cognitive Training Program for Adolescents:</strong> Developed a cognitive training program aimed at improving executive functions (working memory, cognitive flexibility, and inhibitory control) in adolescents.</p>
+    <p><strong>AI in Personalized Education:</strong> Leveraged AI-driven systems to tailor educational content to individual learning profiles, improving engagement and outcomes.</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Feel free to reach out for collaborations, consultations, or simply to chat about cognitive science and AI!</p>
+    <div class="icons">
+        <a href="mailto:jorge.amorim@gmail.com" title="Email">📧</a>
+        <a href="https://www.linkedin.com/in/jorge-amorim" target="_blank" title="LinkedIn">💼</a>
+        <a href="https://github.com/jorgewho" target="_blank" title="GitHub">🐙</a>
+        <a href="https://www.hikari.pt" target="_blank" title="Website">🌐</a>
+    </div>
+</section>
 
 <footer>
     &copy; 2024 Jorge Amorim | All rights reserved.
